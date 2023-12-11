@@ -8,8 +8,8 @@ import ProductData from './ProuductData.js';
 import classes from './App.module.css';
 import { BrowserRouter, Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
-import Home from './Home.js';
-import Test from './Test.js';
+//import Home from './Home.js';
+//import Test from './Test.js';
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -63,8 +63,8 @@ class App extends React.Component {
           {/* <ProductData></ProductData> */}
           <Routes>
             <Route exact path="/" Component={ProductData}></Route>
-            <Route path="/Home" Component={Home}></Route>
-            <Route path='/Test' Component={Test}></Route>
+            {/* <Route path="/Home" Component={Home}></Route>
+            <Route path='/Test' Component={Test}></Route> */}
           </Routes>
         </div>
       </BrowserRouter>

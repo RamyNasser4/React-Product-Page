@@ -1,0 +1,17 @@
+.NewBlogCard {
+    margin: 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    font-size: 24px;
+}
+.NewBlogCard > button {
+    font-size: 24px;
+}
+@media (max-width:500px) {
+    .NewBlogCard{
+        width: 90%;
+    }
+}

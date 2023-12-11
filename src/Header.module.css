@@ -1,0 +1,14 @@
+.Header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #222D3B;
+}
+.Header > img{
+    margin-top: 0.5em;
+    width: 12em;
+    height: 5em;
+    transform: scale(0.5);
+}

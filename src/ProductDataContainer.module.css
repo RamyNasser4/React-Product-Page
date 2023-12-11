@@ -1,0 +1,61 @@
+.Container{
+    width: 50%;
+    height: 35em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productsImgContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.productsImgContainer > img{
+    width: 5em;
+    height: 5em;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.FeaturesContainer{
+    display: flex;
+}
+.Button{
+    width: 9em;
+    height: 3em;
+    text-align: center;
+    margin-right: 1em;
+    background-color: #DCDCDC;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ButtonClicked{
+    width: 9em;
+    height: 3em;
+    text-align: center;
+    margin-right: 1em;
+    background-color: #808080;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buyNow{
+    background-color: #007382;
+    text-align: center;
+    color: white;
+    width: 7em;
+    height: 2.5em;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+}
+/* .productsImgContainerextra > img{
+    border-color: #749B9F;
+} */
